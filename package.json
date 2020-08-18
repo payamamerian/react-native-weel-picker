@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      "https://github.com/hossein197176/react-native-wheel-picker-android.git",
+      "/home/hossein/Programs/KindyParent"
+    ]
+  ],
+  "_from": "git+https://github.com/hossein197176/react-native-wheel-picker-android.git",
+  "_id": "@delightfulstudio/react-native-wheel-picker-android@2.1.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@delightfulstudio/react-native-wheel-picker-android",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/hossein197176/react-native-wheel-picker-android/master/package.json",
+      "gitUrl": "git://github.com/hossein197176/react-native-wheel-picker-android.git",
+      "httpsUrl": "git+https://github.com/hossein197176/react-native-wheel-picker-android.git",
+      "shortcut": "github:hossein197176/react-native-wheel-picker-android",
+      "ssh": "git@github.com:hossein197176/react-native-wheel-picker-android.git",
+      "sshUrl": "git+ssh://git@github.com/hossein197176/react-native-wheel-picker-android.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "https://github.com/hossein197176/react-native-wheel-picker-android.git",
+    "rawSpec": "https://github.com/hossein197176/react-native-wheel-picker-android.git",
+    "scope": null,
+    "spec": "git+https://github.com/hossein197176/react-native-wheel-picker-android.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/hossein197176/react-native-wheel-picker-android.git#701065162cb4c018b6e44aef806325572209ec6f",
+  "_shasum": "8d9db717b16cd46ce95c832f9426e789fe03cded",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/hossein197176/react-native-wheel-picker-android.git",
+  "_where": "/home/hossein/Programs/KindyParent",
+  "bugs": {
+    "url": "https://github.com/DelightfulStudio/react-native-wheel-picker-android/issues"
+  },
+  "contributors": [
+    {
+      "name": "Hossein Es",
+      "email": "hossein197176@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "Android & IOS WheelPicker and DatePicker components that mimic their standard iOS counterparts",
+  "devDependencies": {
+    "@textpress/eslint-config-textpress": "^0.4.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "babel-preset-react-native": "^4.0.0",
+    "conventional-github-releaser": "^3.1.2",
+    "eslint": "^5.6.0",
+    "jest": "^23.1.0",
+    "metro-react-native-babel-preset": "0.45.5",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "react-test-renderer": "16.5.0"
+  },
+  "gitHead": "701065162cb4c018b6e44aef806325572209ec6f",
+  "jest": {
+    "preset": "react-native"
+  },
+  "keywords": [
+    "android",
+    "date-picker",
+    "date-wheel-picker",
+    "picker",
+    "react-component",
+    "react-native",
+    "wheel-picker"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-wheel-picker",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": ">=16.4.2",
+    "react-native": ">=0.55.4"
+  },
+  "readme": "Added Ios Support.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DelightfulStudio/react-native-wheel-picker-android.git"
+  },
+  "scripts": {
+    "build": "true",
+    "release-notes": "conventional-github-releaser -p eslint",
+    "test": "jest"
+  },
+  "version": "1.0.0"
+}

@@ -26,7 +26,7 @@ export default class WheelPicker extends React.Component{
 
     componentDidUpdate(prevProps, prevState){
         if (prevState.selectedItemPosition !== this.props.selectedItemPosition){
-            this.setState( { selectedItemPosition: nextProps.selectedItemPosition } )
+            this.setState( { selectedItemPosition: prevProps.selectedItemPosition } )
         }
     }
 

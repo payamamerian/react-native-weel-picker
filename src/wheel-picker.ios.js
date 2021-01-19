@@ -15,7 +15,7 @@ export default class WheelPicker extends React.Component {
 
 	onItemSelected = (value, index) => {
 		if (this.props.onItemSelected) {
-			this.props.onItemSelected({position: index)
+			this.props.onItemSelected({position: index})
 		}
 		this.setState({selectedItemPosition: index})
 	}
